@@ -56,6 +56,7 @@ app.get('/positions/:id/players', async (request, response) => {
             potential: true,
             accdev: true,
             delaydec: true,
+            discord: true,
         },
         where: {
             positionId,
