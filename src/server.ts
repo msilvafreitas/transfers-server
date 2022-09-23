@@ -88,3 +88,5 @@ app.get('/players/:id/discord', async (request, response) => {
 })
 
 app.listen(3333)
+
+// Heroku? See how deploy prisma
